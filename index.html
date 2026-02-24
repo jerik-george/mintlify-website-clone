@@ -3,7 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="public/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Mintlify - The Intelligent Documentation Platform</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <div class="logo">
+            <a href="#">
+              <img
+                src="public/images/mintlify-logo.svg"
+                alt="logo of Mintlify"
+                class="nav-logo"
+              />
+            </a>
+          </div>
+          <ul>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+          <div class="nav-btn">
+            <a href="#" class="primary-nav-btn">Contact sales</a>
+            <a href="#" class="secondary-nav-btn">Start for free</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-section">
+        <h1>
+          The Intelligent <br />
+          Knowledge Platform
+        </h1>
+        <p class="hero-para">
+          Helping teams create and maintain world-class <br />
+          documentation built for both humans and AI
+        </p>
+        <form>
+          <input type="email" placeholder="Email address" id="email-input" />
+          <button class="input-btn">Start Now</button>
+        </form>
+        <img
+          src="public/images/hero-image-dark.svg"
+          alt="An image of the Mintlify platform"
+          class="hero-platform-image"
+        />
+      </section>
+    </main>
+  </body>
 </html>

@@ -115,7 +115,7 @@ form {
   text-align: center;
   background:
     url(/public/images/hero-bg.svg),
-    linear-gradient(to bottom, transparent 0%, #000 100%);
+    linear-gradient(to bottom, transparent 0%, #08090a 100%);
   background-position: center 180%;
   width: 100%;
   min-height: 100vh;
@@ -149,7 +149,7 @@ form {
   position: absolute;
   right: 0;
   background-color: var(--color-text);
-  color: lab(2.42579% -0.165291 -0.470081);
+  color: #08090a;
   border: 1px solid var(--color-text);
   border-radius: 999px;
   margin-right: 0.375rem;
@@ -160,7 +160,25 @@ form {
 
 .hero-platform-image {
   margin-top: 6rem;
-  mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #08090a 85%, transparent 100%);
   border-radius: 20px;
   border: 3px solid #ffffff1a;
+}
+
+/* Trusted by Section */
+.logos-images-flex {
+  padding: 4.5em 2em 9em 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.trusted-by-logos {
+  display: grid;
+  grid-template-rows: repeat(2, 4rem);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  row-gap: 1.75rem;
+  width: 64rem;
+  align-items: center;
+  justify-items: center;
 }

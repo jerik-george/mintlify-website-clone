@@ -17,8 +17,8 @@ body {
 
 p {
   color: #ffffffb3;
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 0.875rem;
+  line-height: 1.71;
   font-weight: normal;
 }
 
@@ -30,17 +30,35 @@ a {
   text-decoration: none;
 }
 
-.inter-normal {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
+.white-btn {
+  background-color: var(--color-text);
+  color: #08090a;
+  padding: 0.4375rem 1.5rem;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.white-btn:hover {
+  background-color: #ffffffd7;
+}
+
+.sub-title {
+  color: var(--color-brand);
+  font-family: "Geist Mono", monospace;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
 }
 
 /* Nav Section */
 nav {
   font-weight: 500;
-  font-size: 0.938rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
   margin: 1rem 13.025rem;
   position: fixed;
   top: 0;
@@ -247,14 +265,6 @@ form {
   text-wrap: balance;
 }
 
-.intelligent-card-sub-title {
-  color: var(--color-brand);
-  font-size: 0.75rem;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.6px;
-}
-
 .intelligent-card-title {
   font-size: 1.5rem;
   font-weight: 500;
@@ -265,6 +275,142 @@ form {
 .intelligent-card-image {
   width: 100%;
   height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Enterprise Features Section */
+.enterprise-features-section {
+  background-color: #ffffff0d;
+  padding: 6em 0;
+}
+
+.enterprise-container {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.enterprise-first-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-bottom: 3em;
+}
+
+.enterprise-first-row-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 40rem;
+}
+
+.enterprise-first-row-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.8px;
+  text-wrap: balance;
+}
+
+.enterprise-first-row-button {
+  display: flex;
+  align-items: end;
+}
+
+.enterprise-second-row {
+  margin: 1.5rem 0;
+  padding-bottom: 3rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.enterprise-second-row-image {
+  width: 2rem;
+  height: 2rem;
+}
+
+.enterprise-second-row-text {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.2px;
+}
+
+.enterprise-section-third-row {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.enterprise-section-card-content {
+  height: 518px;
+  width: auto;
+  padding: 4rem;
+  background-image: url(/public/images/anthropic-bg-image.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 108%;
+  border-radius: 1.5rem;
+  object-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.enterprise-section-card-sub-title {
+  font-family: "Geist Mono", monospace;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  color: var(--color-text);
+}
+
+.enterprise-section-card-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.24px;
+  color: var(--color-text);
+  max-width: 28rem;
+  margin-top: 1rem;
+}
+
+.enterprise-section-card-second-row {
+  display: flex;
+  gap: 1.75rem;
+}
+
+.enterprise-section-card-second-row-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 12rem;
+}
+
+.enterprise-section-card-second-row-title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.8px;
+  color: var(--color-text);
+}
+
+.enterprise-section-logos {
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.enterprise-section-logos-link {
+  height: 4rem;
+  width: 140px;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -34,6 +34,7 @@ a {
   background-color: var(--color-text);
   color: #08090a;
   padding: 0.4375rem 1.5rem;
+  border: 1px solid var(--color-text);
   border-radius: 999px;
   font-size: 1rem;
   font-weight: 500;
@@ -51,6 +52,13 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.6px;
+}
+
+.title {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  letter-spacing: -0.8px;
+  font-weight: 600;
 }
 
 /* Nav Section */
@@ -114,13 +122,6 @@ ul li a:hover {
 .secondary-nav-btn {
   padding: 0.25rem 0.75rem;
   border-radius: 999px;
-}
-
-.h2-title {
-  font-size: 2.5rem;
-  line-height: 1.1;
-  letter-spacing: -0.8px;
-  font-weight: 600;
 }
 
 /* Hero Section */
@@ -521,4 +522,116 @@ form {
   display: block;
   width: 1.75rem;
   height: 1.75rem;
+}
+
+/* Final CTA Section */
+.final-cta-section {
+  padding: 7.5rem 1.5rem;
+  background: linear-gradient(to bottom, transparent 30%, #ffffff0d 100%);
+}
+.cta-section {
+  max-width: 998px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-content {
+  max-width: 62.375rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cta-text h3,
+.cta-text p {
+  text-align: center;
+  max-width: 35rem;
+  color: var(--color-text);
+}
+
+.cta-btns {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.cta-btn-second {
+  background-color: #08090a;
+  color: var(--color-text);
+  padding: 0.4375rem 1.5rem;
+  border: 1px solid #ffffff26;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.cta-btn-second:hover {
+  border-color: transparent;
+  background-color: #ffffff0d;
+}
+
+.cta-grids {
+  display: grid;
+  grid-template-columns: repeat(2, 499px);
+  margin-top: 3.5rem;
+}
+
+.cta-grid-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.cta-grid-icon {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: #08090a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid #ffffff26;
+  width: fit-content;
+}
+
+.cta-grid-icon img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.cta-grid-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.cta-grid-text h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: -0.2px;
+}
+
+.cta-grid-text p {
+  color: var(--color-text);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.cta-grid-link p {
+  color: var(--color-brand);
+  font-size: 0.938rem;
+  font-weight: 500;
+  line-height: 1.5;
 }

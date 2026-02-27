@@ -635,3 +635,129 @@ form {
   font-weight: 500;
   line-height: 1.5;
 }
+
+/* Footer Section */
+.footer-section {
+  background-color: #ffffff0d;
+  border-top: 1px solid #ffffff0d;
+}
+
+.footer-container {
+  max-width: 1022px;
+  margin: 0 auto;
+  border-left: 1px solid #ffffff0d;
+  border-right: 1px solid #ffffff0d;
+}
+
+.footer-first-row {
+  padding: 4rem 2rem 1.5rem;
+  border-bottom: 1px solid #ffffff0d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-first-row-socials {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.footer-second-row {
+  padding: 3rem 2rem 4.5rem;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0px, 1fr));
+}
+
+.footer-links-title {
+  padding: 0.375rem 0.75rem;
+  margin-bottom: 0.25rem;
+  color: #ffffff80;
+  font-size: 0.813rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.65px;
+}
+
+.footer-second-row-links {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.footer-second-row-links li a {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.5;
+  display: inline-flex;
+  padding: 0.375rem 0.75rem;
+}
+
+.footer-last-row {
+  border-top: 1px solid #ffffff0d;
+  padding: 2rem 2rem 6rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-system-status {
+  padding: 0.25rem 0.75rem;
+  background-color: #ffffff0d;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.375rem;
+}
+
+.footer-system-status p {
+  font-size: 0.813rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+.footer-system-status-icon {
+  height: 12px;
+  width: 12px;
+}
+
+.footer-mode-icons {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.125rem;
+  background-color: #ffffff0d;
+  border-radius: 999px;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-mode-icons button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-mode-images {
+  width: 12px;
+  height: 12px;
+}
+
+.btn-overlay-rounded {
+  position: absolute;
+  background-color: #08090a;
+  border-radius: 999px;
+  width: 24px;
+  height: 24px;
+  z-index: -1;
+  right: 3.5px;
+}
